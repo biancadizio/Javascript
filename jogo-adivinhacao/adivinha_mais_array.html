@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Adivinhação</title>
+</head>
+
+<body>
+    <h1>Jogo da Adivinhação</h1>
+    <div id="caixa">
+        <input id="input" placeholder="Digite um número de 0 a 10" />
+        <button id="button">Compare com o número sorteado</button>
+    </div>
+    <div hidden id="acertou" onclick="verifica()">PARABÉNS! VOCÊ ACERTOU!</div>
+    <div hidden id="errou" onclick="verifica()">Você errou! O número sorteado foi </div>
+    <div id="recomendacao"><p>Para sortear um novo número, recarregue a página <a id="recarregar" href="adivinha_mais_array.html"><strong>CLICANDO AQUI</strong></a>.</p></div>
+    <script>
+        var segredos = [Math.round(Math.random() * 10)];
+        var input = document.querySelector("input");
+        input.focus();
+
+        function verifica() {
+            var acertou = document.querySelector('#acertou');
+            var errou = document.querySelector('#errou');
+
+            var achou = false;
+            for (var posicao = 0; posicao < segredos.length; posicao++) {
+
+                if (input.value == segredos[posicao]) {
+                    alert(acertou.textContent);
+                    achou = true;
+                    break;
+                } else if (achou == false) {
+                    alert(errou.textContent + segredos);
+                    
+                }
+            }
+
+        }
+        input.value = "";
+        input.focus();
+        var button = document.querySelector("button");
+        button.onclick = verifica;
+    </script>
+</body>
+
+</html>

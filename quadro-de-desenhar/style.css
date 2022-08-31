@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(73, 70, 70);
+    text-align: center;
+}
+#paint{
+    text-align: center;
+}
+canvas{
+    background-color: rgb(214, 212, 212);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
