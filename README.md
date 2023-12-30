@@ -1,4 +1,4 @@
-# Javascript
+ # Javascript
 
 Jogos desenvolvidos durante o curso de Lógica de Programação 1 e 2 do Programa de formação ONE (Oracle Next Education)
 
@@ -13,7 +13,6 @@ Executando o Jogo da Adivinhação:
 
 <img src="https://media.licdn.com/dms/image/C4D22AQEb2tH1eEKPwQ/feedshare-shrink_1280/0/1661984673967?e=1706745600&v=beta&t=W6DPS1wGHDeHtemfoX7VJ50-9PQG7x5tqa1V24XhQTE"/>
 
-<img src= "https://media.licdn.com/dms/image/C4D22AQEb2tH1eEKPwQ/feedshare-shrink_1280/0/1661984673967?e=1706745600&v=beta&t=W6DPS1wGHDeHtemfoX7VJ50-9PQG7x5tqa1V24XhQTE"/>
 
 Executando o Quadro de Desenhar:
 <img src= "https://media.licdn.com/dms/image/C4D22AQF7h5ixXgg96A/feedshare-shrink_2048_1536/0/1661984673675?e=1706745600&v=beta&t=93vxqSyuhuXBunI-qDqylZAvJB6OIKOX-xMVuZp_8bI"/>
